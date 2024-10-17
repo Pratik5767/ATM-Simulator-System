@@ -1,6 +1,8 @@
 package Bank.Management.System;
 
-public class SignUpTwo {
+import javax.swing.JFrame;
+
+public class SignUpTwo extends JFrame {
 
 	SignUpTwo() {
 
