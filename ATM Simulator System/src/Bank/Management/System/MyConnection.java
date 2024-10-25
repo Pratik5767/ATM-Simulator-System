@@ -15,7 +15,7 @@ public class MyConnection {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// create connection
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankmanagementsystem", "root",
-					"Pratik@database");
+					"");
 			//create statement
 			statement = connection.createStatement();
 		} catch (Exception e) {
