@@ -1,14 +1,18 @@
 package Bank.Management.System;
 
-public class SignUpThree {
+import javax.swing.JFrame;
 
-	SignUpThree() {
-		
+public class SignUpThree extends JFrame {
+
+	String formNo;
+	
+	SignUpThree(String fromNo) {
+		this.formNo = formNo;
 	}
 	
 	public static void main(String[] args) {
 		
-		new SignUpThree();
+		new SignUpThree("");
 	}
 
 }
